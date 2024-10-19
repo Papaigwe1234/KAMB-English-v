@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _*Gojou-md*_. ')
+repondre(' _*Kamb-md*_. ')
 
 }
     });

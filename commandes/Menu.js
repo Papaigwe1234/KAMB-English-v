@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭─────────────────☉
 │▫️╭─────────────☉
-│  │ *GOJOU-MD*
+│  │ *KAMB-MD*
 │▫️│*BOT-OWNER* : ${s.OWNER_NAME}
 │▫️│*Date* : ${date}
 │▫️│*PREFIX* : ${s.PREFIXE}
@@ -42,20 +42,20 @@ const date = moment().format('DD/MM/YYYY');
 │▫️│*CMDs* : ${cm.length} 
 │▫️│*STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │▫️│*RUNNING ON* : ${os.platform()}
-│▫️│*THEME* : *Gojou-MD*
+│▫️│*THEME* : *IGWETECH-MD*
 │▫️╰──────────────☉
 ╰──────────────────☉
 ╭───────────────☉
- ☉〘 Gojou-MD 〙☉
- ☉by David Cyril☉
+ ☉〘 KAMB-MD 〙☉
+ ☉by DADDY IGWE☉
 ╰───────────────☉\n`;
     
 let menuMsg = `
 ╭─────────☉
-    *YOWAIMO*
+    *BIENVENU AMIGO !!*
 ╰─────────☉
 
- *⚡GOJOU-MD COMMAND LIST⚡*
+ *⚡KAMB-MD COMMAND LIST⚡*
 `;
 
     for (const cat in coms) {
@@ -71,10 +71,10 @@ let menuMsg = `
     menuMsg += `
             
 *———————————————————————————*
-|▫️Gojou-MD
+|▫️KAMB-MD
 |▫️a Multi device whatsapp bot
-|▫️Created by _David Cyril_
-|▫️_Repo_ :https://github.com/DeeCeeXxx/Gojou-MD
+|▫️Created by _PAPA IGWE_
+|▫️_Repo_ :https://github.com/papaigwe1234/KAMB-English-v
 *———————————————————————————*
 `;
 
@@ -82,7 +82,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Gojou-MD*, déveloper David Cyril" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *KAMB-MD*, déveloper PAPA IGWE" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -92,7 +92,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Gojou*, déveloper David Cyril" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *KAMB*, déveloper PAPA IGWE" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

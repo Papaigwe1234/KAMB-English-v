@@ -1,9 +1,9 @@
 {
-  "name":"Gojou-MD",
-  "description":"Deploy now your Gojou md ,Brought to you by the David Cyril.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "name":"KAMB-MD",
+  "description":"Deploy now your kamb md ,Brought to you by the Daddy igwe.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/YKVlucn.jpeg",
-  "repository":"https://github.com/DeeCeeXxx/Gojou-MD",
+  "logo":"https://i.imgur.com/D7Vp1FN.jpeg",
+  "repository":"https://github.com/papaigwe1234/KAMB-English-v",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Gojo MD",
+      "value":"KAMB MD",
       "required":false
 
     } ,
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "David Cyril"
+    "value": "Daddy igwe"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '234')",
     "required":false,
-    "value": "2349066528353"
+    "value": "24160338758"
   },
     "WARN_COUNT":
   {

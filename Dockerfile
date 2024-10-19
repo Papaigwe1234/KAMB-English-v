@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/DeeCeeXxx/Gojou-MD /root/Gojou-MD
-WORKDIR /root/Gojou-MD/
+RUN git clone https://github.com/papaigwe1234/KAMB-English-v /root/KAMB-English-v
+WORKDIR /root/KAMB-English-v/
 
 
 COPY package.json .
